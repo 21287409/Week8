@@ -1,0 +1,32 @@
+class Book():
+    def __init__(self, title, author, year_of_publication):
+        self.a=title
+        self.b=author
+        self.c =year_of_publication
+
+    def showDetails(self):
+        print("Title:", self.a)
+        print("Author:", self.b)
+        print("Year of publication:", self.c)
+
+    def getTitle(self):
+        return self.a
+
+    def setTitle(self,titleInput):
+         self.a  = titleInput
+         return self.a
+
+    def getAuthor(self):
+        return self.b
+
+    def setAuthor(self,authorInput):
+         self.b = authorInput
+         return self.b
+
+    def setYear_of_publication(self,year_of_publicationInput):
+         self.c = year_of_publicationInput
+         return self.c
+
+    def getYear_of_publication(self):
+        return self.c
+    
